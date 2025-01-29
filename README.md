@@ -121,53 +121,26 @@ Explore the following **Bangla** and **English** resources to enhance your learn
 ### 📖 **Books**  
 #### English Books:
 1. **Clean Code** by Robert C. Martin  
-   *(A must-read for writing cleaner, maintainable, and professional-grade code.)*
 2. **Design Patterns: Elements of Reusable Object-Oriented Software** by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides  
-   *(Comprehensive guide to design patterns in OOP.)*
 3. **Head First Object-Oriented Analysis and Design** by Brett McLaughlin  
-   *(A practical introduction to object-oriented design with engaging examples.)*
 4. **Refactoring: Improving the Design of Existing Code** by Martin Fowler  
-   *(Learn how to refactor code efficiently while maintaining quality.)*
-5. **Effective Java** by Joshua Bloch  
-   *(An excellent book for mastering OOP concepts in Java.)*
-6. **The Pragmatic Programmer** by Andy Hunt and Dave Thomas  
-   *(Focuses on the mindset and practices required for effective programming.)*
 
 #### Bangla Books:
-1. **Object-Oriented Programming in Bangla** by Tamim Shahriar Subin  
-   *(An excellent introduction to OOP concepts in Bangla for beginners.)*
-2. **Programming er Bolod to Boss** by Shykat Islam  
-   *(Great for understanding programming basics in a friendly tone.)*
-3. **ডিজাইন প্যাটার্ন** by Rifat Shahriyar  
-   *(Bangla guide to understanding design patterns.)*
-
+1. **অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং** by Zohirul Alam Tiemoon 
 
 ---
 
-### 🎥 **Videos and Courses**
+### 🎥 **Youtube Videos and Courses**
 #### English Video Courses:
 1. [Object-Oriented Programming in JavaScript](https://www.udemy.com/course/object-oriented-programming-in-javascript/) by Udemy  
-   *(Comprehensive course to learn OOP in JavaScript with examples.)*
-2. [Java Programming and OOP Fundamentals](https://www.coursera.org/learn/object-oriented-java) by Coursera  
-   *(Taught by Duke University, focuses on OOP with Java.)*
-3. [Python OOP Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU) by Corey Schafer  
-   *(Detailed guide to OOP in Python for developers.)*
-4. [Introduction to OOP in C++](https://www.udemy.com/course/object-oriented-programming-in-c/) by Udemy  
-   *(Learn the basics of OOP in C++.)*
-5. [SOLID Principles in Software Design](https://www.udemy.com/course/solid-principles-object-oriented-design/) by Udemy  
-   *(Deep dive into SOLID principles for professional developers.)*
+2. [SOLID Principles in Software Design](https://www.udemy.com/course/solid-principles-object-oriented-design/) by Udemy  
 
-#### Bangla Video Courses:
-1. [Object-Oriented Programming in Bangla](https://www.youtube.com/playlist?list=PL_XxuZqN0xVfnfX3y1D4e1b7nYVoVAO1H) by Tamim Shahriar Subin  
-   *(A beginner-friendly YouTube series on OOP in Bangla.)*
-2. [Programming Hero OOP Course](https://www.programming-hero.com/)  
-   *(A popular OOP and backend course designed for Bangladeshi learners.)*
-3. [OOP with Java Bangla Tutorials](https://www.youtube.com/playlist?list=PLgH5QX0i9K3rJ3UHROs-3dLRVeiw6vxXh) by Anisul Islam  
-   *(Java OOP explained in Bangla with simple examples.)*
-4. [OOP with Python in Bangla](https://www.youtube.com/playlist?list=PLGQls_iR9ZxihagXHTyHwZ6QF05iMiF1D) by Learn With Sumit  
-   *(OOP concepts implemented with Python, explained in Bangla.)*
-5. [C++ OOP Bangla Tutorials](https://www.youtube.com/playlist?list=PL_XxuZqN0xVc7n06MJdSJGlAFmlcblx37) by Riaz Mahmud  
-   *(Comprehensive guide to learning OOP in C++ for Bangla-speaking learners.)*
+#### Bangla Youtube Video Courses:
+1. [Professional OOP Training Program](https://docs.google.com/document/d/1bsjxBXgWjO9Sesal7X1hHV1ee9AwS-_4VnfqAhqcYfQ/edit?tab=t.0#heading=h.69a7mqb32b6e) by Zohirul Alam Tiemoon 
+
+   *(A popular OOP course designed for Bangladeshi learners, which is the best professional course for OOP in Bengali.)*
+   
+3. [JavaScript OOP Simplified - Master the Basics and Build a Real-World Project](https://www.youtube.com/watch?v=B6vSq4KiZeM&t=14224s) by Stack Learner  
 
 ---
 
@@ -176,7 +149,6 @@ Explore insightful blog posts for practical knowledge and tips:
 - [Top OOP Concepts Explained](https://www.geeksforgeeks.org/object-oriented-programming/) on GeeksforGeeks  
 - [SOLID Principles Simplified](https://medium.com/@amila922/solid-principles-in-object-oriented-design-5ec01a993b91) on Medium  
 - [How to Refactor Code](https://refactoring.guru/refactoring) on Refactoring Guru  
-- [Bangla Programming Blog](https://devskill.com/blogs/) on DevSkill
 
 ---
 
