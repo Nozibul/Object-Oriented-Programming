@@ -162,5 +162,5 @@ Enhance your productivity with these tools:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/OOP-Repository.git
-   cd OOP-Repository
+   git clone https://github.com/Nozibul/Object-Oriented-Programming.git
+   cd Object-Oriented-Programming
