@@ -137,10 +137,8 @@ Explore the following **Bangla** and **English** resources to enhance your learn
 
 #### Bangla Youtube Video Courses:
 1. [Professional OOP Training Program](https://docs.google.com/document/d/1bsjxBXgWjO9Sesal7X1hHV1ee9AwS-_4VnfqAhqcYfQ/edit?tab=t.0#heading=h.69a7mqb32b6e) by Zohirul Alam Tiemoon 
-
-   *(A popular OOP course designed for Bangladeshi learners, which is the best professional course for OOP in Bengali.)*
-   
-3. [JavaScript OOP Simplified - Master the Basics and Build a Real-World Project](https://www.youtube.com/watch?v=B6vSq4KiZeM&t=14224s) by Stack Learner  
+   - **A popular OOP course designed for Bangladeshi learners, which is the best professional course for OOP in Bengali.**
+2. [JavaScript OOP Simplified - Master the Basics and Build a Real-World Project](https://www.youtube.com/watch?v=B6vSq4KiZeM&t=14224s) by Stack Learner  
 
 ---
 
