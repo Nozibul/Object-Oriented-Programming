@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # 🌟 Object-Oriented Programming (OOP) 
 
 Welcome to the **OOP Repository**! This repository is designed to provide a comprehensive learning path and practical implementation of **Object-Oriented Programming (OOP)** concepts, specifically focusing on **Backend Development**. All examples and practices will use **Golang** to explore the full potential of OOP in modern software development.
@@ -166,4 +164,4 @@ Enhance your productivity with these tools:
    ```bash
    git clone https://github.com/Nozibul/Object-Oriented-Programming.git
    cd Object-Oriented-Programming
->>>>>>> 7e671cb2abffb7cfc5a5b0b441f2a77fd0eec4c7
+
