@@ -7,16 +7,7 @@ import (
 
 func main() {
 	// Create a new bank account
-	account3 := &bank.BankAccount{}
-
-	// Set account information
-	err := account3.SetAccountName("Nozibul")
-	if err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-
-	err = account3.SetAccountNumber(12345678)
+	account3, err := bank.NewBankAccount("Nozibul", 552225, 0)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
@@ -24,6 +15,13 @@ func main() {
 
 	// Deposit money
 	account3.Deposit(20000)
+
+	// Set account name with error checking
+	err = account3.SetAccountName("ABsssss")
+	if err != nil {
+		fmt.Println("Error setting name:", err)
+		return
+	}
 
 	// Print account information
 	fmt.Printf("Account Name: %s\n", account3.GetAccountName())
