@@ -15,11 +15,11 @@ func main() {
 	}
 
 	// Updated code to handle error from Deposit
-	// err = account1.Deposit(5000)
-	// if err != nil {
-	// 	fmt.Println("Error making deposit:", err)
-	// 	return
-	// }
+	err = account1.Deposit(5000)
+	if err != nil {
+		fmt.Println("Error making deposit:", err)
+		return
+	}
 
 	fmt.Println("Default Account Name:", account1.GetAccountName())
 	fmt.Println("Default Account Balance:", account1.GetBalance())

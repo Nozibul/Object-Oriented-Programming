@@ -20,16 +20,24 @@ type BankAccount struct {
 	balance       int    // private field
 }
 
-// Default constructor with empty values
+// ডিফল্ট ডিপোজিট অ্যামাউন্ট
+var defaultDeposit = 100
+
+// ডিফল্ট ব্যাংক অ্যাকাউন্টের জন্য কনস্ট্রাক্টর
 func NewDefaultBankAccount() *BankAccount {
-	return &BankAccount{
+	account := &BankAccount{
 		accountName:   "Default",
 		accountNumber: 100000, // 6 digits as required
-		balance:       0,
+		balance:       0,      // প্রাথমিক ব্যালেন্স শূন্য
 	}
+
+	// অ্যাকাউন্ট তৈরির পর ডিপোজিট করা
+	account.Deposit(defaultDeposit)
+
+	return account
 }
 
-// Constructor function for BankAccount
+// BankAccount কনস্ট্রাক্টর
 func NewBankAccount(name string, number int, balance int) (*BankAccount, error) {
 	if name == "" {
 		return nil, errors.New("account name cannot be empty")
@@ -44,11 +52,16 @@ func NewBankAccount(name string, number int, balance int) (*BankAccount, error) 
 		return nil, errors.New("initial balance cannot be negative")
 	}
 
-	return &BankAccount{
+	account := &BankAccount{
 		accountName:   name,
 		accountNumber: number,
 		balance:       balance,
-	}, nil
+	}
+
+	// অ্যাকাউন্ট তৈরির পর ডিপোজিট করা
+	account.Deposit(defaultDeposit)
+
+	return account, nil
 }
 
 // Getter methods
