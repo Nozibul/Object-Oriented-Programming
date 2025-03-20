@@ -20,6 +20,15 @@ type BankAccount struct {
 	balance       int    // private field
 }
 
+// Default constructor with empty values
+func NewDefaultBankAccount() *BankAccount {
+	return &BankAccount{
+		accountName:   "Default",
+		accountNumber: 100000, // 6 digits as required
+		balance:       0,
+	}
+}
+
 // Constructor function for BankAccount
 func NewBankAccount(name string, number int, balance int) (*BankAccount, error) {
 	if name == "" {
@@ -72,8 +81,25 @@ func (number *BankAccount) SetAccountNumber(newNumber int) error {
 }
 
 // Deposit method
-func (account *BankAccount) Deposit(amount int) {
+func (account *BankAccount) Deposit(amount int) error {
+	// Check if account name is valid
+	if len(account.accountName) < 3 {
+		return errors.New("account name must be at least 3 characters long")
+	}
+
+	// Check if account number is valid
+	if len(strconv.Itoa(account.accountNumber)) < 6 {
+		return errors.New("account number must be at least 6 digits")
+	}
+
+	// Check if amount is positive
+	if amount <= 0 {
+		return errors.New("deposit amount must be positive")
+	}
+
+	// If all validations pass, perform the deposit
 	account.balance += amount
+	return nil
 }
 
 // Withdraw method
