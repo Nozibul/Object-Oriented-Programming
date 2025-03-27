@@ -27,8 +27,8 @@ var defaultDeposit = 100
 func NewDefaultBankAccount() *BankAccount {
 	account := &BankAccount{
 		accountName:   "Default",
-		accountNumber: 100000, // 6 digits as required
-		balance:       0,      // প্রাথমিক ব্যালেন্স শূন্য
+		accountNumber: 100000,
+		balance:       0,
 	}
 
 	// অ্যাকাউন্ট তৈরির পর ডিপোজিট করা
